@@ -8,26 +8,24 @@ A powerful, Bash-based vulnerability scanner by **Cyber Defense Academy**. Scans
 - Network: CVE detection via `nmap`.
 - User-friendly interface with risk ratings.
 
+## Requirements
+- Root access
+- Tools: curl, nmap, wget, strings, jq , testssl.sh (optional)
+
+## Connect
+- Telegram: t.me/cyberdefenseacademy
+- X: cyberdefaca
+- YouTube: CyberDefenseAcademy
+
+
+
+
 ## Usage
 ```bash
-sudo ./cyber_vulnscan_cve.sh
-
-Requirements
-Root access
-
-Tools: curl, nmap, wget, strings, jq (optional), testssl.sh (optional)
-
 git clone https://github.com/cyberdefenseacademy/cyber-vuln-scanner.git
 cd cyber-vuln-scanner
 chmod +x cyber_vulnscan_cve.sh
+./cyber_vulnscan_cve.sh
 
-
-
-Connect
-GitHub: cyberdefenseacademy
-
-X: cyberdefaca
-
-YouTube: CyberDefenseAcademy
 
 
